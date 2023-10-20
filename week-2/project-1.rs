@@ -1,6 +1,6 @@
 fn main() {
 	// First declare the values
-	let loan:i64 = 520_000_000;
+	let loan:f64 = 520_000_000;
 	let time = 5;
 	let n = time * 12;
 	let rate = 10;
