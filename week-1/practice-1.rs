@@ -11,5 +11,5 @@ fn main(){
 		      5. Navigate the career prospects in computer science,\n
 		      6. Conversant with computer programming concepts.");
 
-	
+
 }
