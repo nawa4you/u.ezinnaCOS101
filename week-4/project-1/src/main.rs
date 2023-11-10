@@ -85,53 +85,58 @@ use std::io;
 
 fn main() {
     let mut speed: f32;
-    let mut input: String;
+    let mut input: S;
     let mut t1: f32;
     let mut restart = String::new();
 
-    println!("CALCULATOR APP FOR SPEED OF CARS (IN KILOMETERS)");
+
+    println!("CALCULATOR APP FOR FINDING DISTANCE OF CARS TRAVEL\n
+    	Please input the speed (in miles)");
+
+    // println!("CALCULATOR APP FOR SPEED OF CARS (IN KILOMETERS)");
 
     // Get speed input and convert to f32
     io::stdin().read_line(&mut speed).expect("Not a valid Input");
     speed = speed.trim().parse().expect("Not a valid Number");
 
     // Check speed unit and convert to kilometers if necessary
-    loop {
-        println!("\nIs your speed in KILOMETERS or MILES\n(K or M?)");
-        io::stdin().read_line(&mut input).expect("Not a valid Input");
-        input = input.trim().to_lowercase();
+    // loop {
+    //     println!("\nIs your speed in KILOMETERS or MILES\n(K or M?)");
+    //     io::stdin().read_line(&mut input).expect("Not a valid Input");
+    //     input = input.trim().to_lowercase();
 
-        if input == "k" {
-            break;
-        } else if input == "m" {
-            speed *= 1.60934;
-            break;
-        } else {
-            println!("INPUT EITHER K OR M PLEASE");
-        }
-    }
+    //     if input == "k" {
+    //         break;
+    //     } else if input == "m" {
+    //         speed *= 1.60934;
+    //         break;
+    //     } else {
+    //         println!("INPUT EITHER K OR M PLEASE");
+    //     }
+    // }
 
     // Get time input and convert to f32
+    println!("Please input the time (in hours)");
     io::stdin().read_line(&mut t1).expect("Not a valid Input");
     t1 = t1.trim().parse().expect("Not a valid Number");
 
     // Check time unit and convert to seconds
     loop {
-        println!("\nNow input the time");
-        io::stdin().read_line(&mut t1).expect("Not a valid Input");
-        t1 = t1.trim().parse().expect("Not a valid Number");
+        // println!("\nNow input the time");
+        // io::stdin().read_line(&mut t1).expect("Not a valid Input");
+        // t1 = t1.trim().parse().expect("Not a valid Number");
 
         println!("Is the time in seconds, hours or minutes (s, h, m?)");
-        input = String::new();
+        tform = String::new();
         io::stdin().read_line(&mut input).expect("Not a valid Input");
-        input = input.trim().to_lowercase();
+        Tform = input.trim().to_lowercase();
 
-        if input == "s" {
+        if Tform == "s" {
             break;
-        } else if input == "h" {
+        } else if Tform == "h" {
             t1 *= 3600.0;
             break;
-        } else if input == "m" {
+        } else if Tform == "m" {
             t1 *= 60.0;
             break;
         } else {
@@ -146,19 +151,19 @@ fn main() {
     println!("Given your inputs, speed as {}km and time as {}, the total distance of the car = {}", speed, t1, distance);
 
     // Restart prompt
-    loop {
-        println!("\nDO YOU WANT TO CALCULATE AGAIN? y or n");
-        io::stdin().read_line(&mut restart).expect("Not a valid inout");
-        restart = restart.trim().to_lowercase();
+    // loop {
+    //     println!("\nDO YOU WANT TO CALCULATE AGAIN? y or n");
+    //     io::stdin().read_line(&mut restart).expect("Not a valid inout");
+    //     restart = restart.trim().to_lowercase();
 
-        if restart == "y" {
-            main();
-            break;
-        } else if restart == "n" {
-            println!("THANKS FOR USING (made by daniel)");
-            break;
-        } else {
-            println!("Not a valid input");
-        }
-    }
+    //     if restart == "y" {
+    //         main();
+    //         break;
+    //     } else if restart == "n" {
+    //         println!("THANKS FOR USING (made by daniel)");
+    //         break;
+    //     } else {
+    //         println!("Not a valid input");
+    //     }
+    // }
 }
