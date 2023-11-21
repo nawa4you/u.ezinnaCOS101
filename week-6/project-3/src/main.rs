@@ -20,7 +20,7 @@ fn main() {
 	for x in 1..n+1 {
 	let multiple = number * x;
 
-		println!("\n\n{} X {} = {}",number,x, multiple);
+		println!("\n\n  ㉿{} X {} = {}",number,x, multiple);
 		
 		if x > n+1 {
 			continue;

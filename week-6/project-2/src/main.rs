@@ -1,5 +1,7 @@
 use std::io;
 fn main() {
+
+	for y in 1..501 {
 	println!("*****Researchers Publicationlet incentive System*****");
 	println!("*****THIS PROGRAM WILL ONLY RUN FOR THE FIRST 500 RESEARCHERS*****");
 
@@ -50,5 +52,12 @@ fn main() {
 			println!("Sorry please try again");
 			main();
 		}
+
+	if y > 500{
+		continue;
+	}
+	}
+
+		println!("Sorry but this prigram only runs for the first 500 Researchers");
 
 }
