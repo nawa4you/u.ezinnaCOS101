@@ -1,0 +1,8 @@
+This is a backup file to the lost documents of convicted ministers and their states
+
+       S/N|            Name of commisioner             Ministry   Geopolitical Zones
+         1|          Aigbogun Alamba Daudu     Internal Affairs           South West
+         2|            Murtala Afeez Bendu              Justice           North East
+         3|       Okorocha Calistus Ogbona              Defense          South South
+         4|           Adewale Jimoh Akanbi        Power & Steel           South West
+         5|           Osazuwa Faith Etieye            Petroleum           South East

@@ -1,0 +1,11 @@
+Nigerian Breweries Plc
+Portfolio of high-quality Lager, Stout, Non-alcoholics and Spirit
+
+
+       S/N,              Lagers,               Stout,       Non-Alcoholic
+         1,           33 Export,              Legend,             Maltina
+         2,          Desperados,          Turbo King,        Amstel Malta
+         3,            Goldberg,            Williams,           Mata Gold
+         4,              Gulder,                   -,             Fayrouz
+         5,            Heineken,                   -,                   -
+         6,                Star,                   -,                   -
