@@ -10,7 +10,7 @@ fn main() {
 	let mut file = std::fs::File::create("Convicted-Ministers.txt").expect("Couldnt Create file");
 
 
-	file.write_all("This is a backup file to the lost documents of convicted ministers and their states\n\n".as_bytes()).expect("couldnt write");
+	file.write_all("This is a backup file to the lost documents of convicted ministers and their states: \n\n".as_bytes()).expect("couldnt write");
 
 
 	writeln!(file,"{:>10}| {:>30} {:>20} {:>20}", "S/N","Name of commisioner","Ministry","Geopolitical Zones");
