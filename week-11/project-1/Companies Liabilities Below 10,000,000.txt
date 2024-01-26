@@ -1,0 +1,8 @@
+Here is companies with 10m liabilities and below
+                 S/N|       Companies Name |   Companies Leverage
+                   1|  Cadbury Nigeria Plc |    8.636363983154297
+                   2| Champion Brewries Plc |               10.625
+                   3| Flour Mills Nigeria Plc |                   35
+                   4|   Nestle Nigeria Plc |    21.66666717529297
+                   5| Honeywell Nigeria Plc |   13.888888549804689
+Thats all companies with 10m liabilities and below

@@ -1,0 +1,10 @@
+Here is the data for all companiies year of establishment, company name, assets, liabilities:  
+       S/N|       Year|              Company Name|            Company Assets|         Company liability|
+         1|       1965|  Cadbury Nigeria Plc|              5500000|              5500000|   172.72727966308594
+         2|       1974| Champion Brewries Plc|              8000000|              8000000|                212.5
+         3|       1970| Dangote Sugar Refinery Plc|             10000000|             10000000|                   80
+         4|       1960| Flour Mills Nigeria Plc|              4000000|              4000000|                  700
+         5|       1961|   Nestle Nigeria Plc|              1500000|              1500000|    433.3333435058594
+         6|       1923| Unilever Nigeria Plc|             11000000|             11000000|   236.36363220214844
+         7|       1906| Honeywell Nigeria Plc|              9000000|              9000000|   277.77777099609375
+         8|       1946| Nigerian Brewries Plc|             12000000|             12000000|                  150

@@ -1,0 +1,8 @@
+Here is companies with 20m shares and above
+                 S/N|       Companies Name |   Companies Leverage
+                   1| Champion Brewries Plc |                212.5
+                   2| Flour Mills Nigeria Plc |                  700
+                   3| Unilever Nigeria Plc |   236.36363220214844
+                   4| Honeywell Nigeria Plc |   277.77777099609375
+                   5| Nigerian Brewries Plc |                  150
+Thats all companies with 20m shares and above
